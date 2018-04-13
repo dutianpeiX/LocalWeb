@@ -1,0 +1,347 @@
+.item{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid #cecece;
+    margin-top: 10px;
+}
+.merchants{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.coser{
+    width: 70%;
+    height: 500px;
+    margin: 10px auto;
+    border: 1px solid #ebebeb;
+    margin-top: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgb(189, 188, 188);
+}
+.graphic{
+    width: 66%;
+    height: 80px;
+    position: relative;
+}
+.graphic_1{
+    display: flex;
+    float: left;
+}
+.graphic_1 svg{
+    font-size: 80px;
+}
+.graphic_1 h2{
+    font-size: 30px;
+    color: #3dc51b;
+    line-height: 80px;
+}
+.graphic a{
+    position: absolute;
+    right: 0;
+    top: 43%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.graphic a:hover{
+    color: brown;
+}
+/* 轮播 */
+#container {
+    width: 735px;
+    height: 400px;
+    float: left;
+    border: 1px solid rgb(167, 167, 167);
+    overflow: hidden;
+    position: relative;
+}
+#list {
+    width: 5145px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+}
+#list img {
+    width: 735px;
+    height: 400px;
+    float: left;
+}
+#buttons {
+    position: absolute;
+    height: 10px;
+    width: 16%;
+    z-index: 2;
+    bottom: 20px;
+    left: 42%;
+}
+#buttons span {
+    cursor: pointer;
+    float: left;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(85, 85, 85);
+    margin-right: 5px;
+}
+#buttons .on {
+    background: rgb(252, 97, 40);
+}
+.arrow {
+    cursor: pointer;
+    display: none;
+    line-height: 39px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    background-color: RGBA(0, 0, 0, .3);
+   color: #fff;
+}
+.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
+}
+#container:hover .arrow {
+    display: block;
+}
+#prev {
+    left: 20px;
+}
+#next {
+    right: 20px;
+}
+.Listofpopular{
+    width: 30%;
+    float: right;
+    height: 400px;
+    border: 1px solid #c9c9c9;
+    position: relative;
+}
+.Listofpopular h3{
+    width: 30%;
+    height: 13%;
+    position: absolute;
+    top: -13%;
+    color: #2ad300;
+}
+
+.exchange{
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    box-shadow: 1px 1px 1px #8d8d8d;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.exchange_top{
+    display: flex;
+}
+.exchange_top a{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: aqua;
+}
+.exchange_top svg{
+    font-size: 80px;
+}
+.exchange_top h2{
+    line-height: 80px;
+    color: #6ac97f;
+}
+.exchange_metal{
+    width: 90%;
+    height: 500px;
+    margin-left: 3%;
+}
+.exchange_metal ul li{
+    float: left;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+}
+.exchange_metal ul li p{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.exchange_metal ul li p:hover{
+    transition: 0.6s;
+    transform: scale(1);
+    background: #6ac97f;
+}
+.show{width: 100%;height: 480px;z-index: 1;}
+.hide{width: 100%;height: 480px;background-repeat: no-repeat;background-size: 100% 100%;display: none;}
+.tab{
+    width: 100%;
+    height: 100%;
+}
+.tab ol{
+    width: 100%;
+    height: 100%;
+}
+.tab ol li{
+    float: left;
+    width: 30%;
+    height: 45%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+.tab ol li div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #a7a8a8;
+    position: relative;
+}
+.tab ol li div img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tab ol li div a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.tab ol li div:hover{
+    position: relative;
+    transition: 0.1s;
+    top: -3px;
+    left: -3px;
+    box-shadow: 3px 3px 3px #8f8f8f;
+    cursor: pointer;
+}
+
+/*
+换页
+*/
+
+.trade{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px #8d8d8d;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.trade_top{
+    width: 100%;
+    height: 20px;
+}
+.trade_top input{
+    height: 20px;
+}
+.trade_top button{
+    height: 24px;
+}
+.line{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.line::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.line ul{
+    width: 100%;
+    height: 100%;
+}
+.line ul li{
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+    float: left;
+}
+.line ul li div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8f8f8f;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.line ul li div span{
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    width: 101%;
+    height: 30px;
+    background-color: #999999;
+    line-height: 30px;
+}
+.line ul li div:hover span{
+    transition: 0.4s;
+    bottom: 0;
+    opacity: 0.8;
+}
+.choose{
+    width: 80%;
+    float: right;
+    height: 20px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+.choose table{
+    width: 35%;
+    height: 100%;
+}
+.choose table tr{
+    width: 100%;
+    height: 20px;
+}
+.choose table tr td p{
+    float: left;
+}
+/* show */
+.showD{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.showShow{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+.showShow ul{
+    width: 100%;
+    height: 100%;
+}
+.showShow ul li{
+    width: 20%;
+    height: 100%;
+    margin-left: 3.5%;
+    float: left;
+}
+.showShow ul li div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8f8f8f;
+    position: relative;
+}
+.showShow ul li div span{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    bottom: -20px;
+}
+/* 底部切换 */

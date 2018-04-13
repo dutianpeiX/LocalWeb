@@ -1,0 +1,199 @@
+/* phone media */
+@media only screen and (max-width: 768px){
+    body{font-size: 16px;}
+    /* nav */
+    .nav_right input{width: 3rem;}
+    .nav img{margin-left: 0;}
+    .nav_right{margin-right: 0;}
+    .col{display: none;}
+    /* banner */
+    .bigbig{width: 100%;}
+    .flex-direction-nav{display: none;}
+    .flex-control-paging li a{display: none;}
+    /* exchange */
+    .right{display: none;}
+    .big{width: 100%;}
+    .exchange_top svg{font-size: 40px;}
+    .exchange_top h2{line-height: 40px;}
+    .exchange_top a{line-height: 40px;}
+    .exchange{width: 100%;height: 270px;margin-top: 2px;}
+    .exchange_metal{width: 90%;height: 215px;}
+    .tab{height: 200px;}
+    .tab_1{height: 220px;}
+    .show{height: 200px;}
+    .hide{height: 200px;}
+    .exchange_metal ul li p{font-size: 0.3rem;}
+    .tab ol li{margin-top: 1%;}
+    .lift-nav{display: none;}
+    .bottom{height: 100px;}
+    .footer{display: none;}
+    /* cosplay */
+    /* positive */
+    .hot{width: 90%;}
+    .hot ul{display: flex;margin-left: 5%;}
+    .hot ul li ol{width: 100%;left: 0;}
+    .hot ul li ol li{margin-left: 0;}
+    .hot ul li a{font-size: 1rem;}
+    .hot ul li {margin-left: 10%;text-align: center;}
+    /* 比赛竞技 */
+    .coser{width: 100%;}
+    .Listofpopular{display: none;}
+    .graphic{height: 40px;width: 100%;}
+    .graphic_1 svg{font-size: 40px;}
+    .graphic_1 h2{font-size: 1.5rem;line-height: 40px;}
+    .graphic a{line-height: 40px;}
+    /* coser */
+    .selection{width: 100%;}
+    .sentiment{width: 100%;height: 200px;}
+    .showCoser{width: 100%;}
+    .exchange_href{margin-left: 1%;width: 90%;}
+    .exchange_href span{width: 35%;}
+    /* 扩列交友 */
+    .button{padding: .5em 0.2em .55em;}
+    .olk input{display: none;}
+    .olk svg{display: none;}
+    .people ul{height: 120px;}
+    /* acg */
+    .hotA{width: 90%;}
+    .hotA_top svg{font-size: 40px;}
+    .hotA_top h3{font-size: 0.8rem;line-height: 40px;}
+    .hotA ul{width: 100%;}
+    .lanren{margin-top: 50px;width: 100%;}
+    .lanren ul.list li img{height: 100px;}
+    /* 绘画 */
+    .exhibit{width: 100%;}
+    .exhibit_top{height: 40px;}
+    .exhibit_top svg{font-size: 40px;}
+    .exhibit_top p{font-size: 1rem;line-height: 40px;width: 35%;}
+    .exhibit_top ul{margin-left: -30px;}
+    .exhibit_top ul li {line-height: 40px;margin-left: 10px;}
+    .batch{display: none;}
+    .exhibitShow{height: 300px;}
+    .exhibit_a{line-height: 40px;font-size: 1rem;right: 5%;}
+    .exhibitShow ul{width: 100%;}
+    .showA p{font-size: 0.8rem;}
+    .hot_left svg{font-size: 40px;}.hot_left h2{line-height: 40px;}
+    .exchange_media1{width: 98%;}
+    /* 次元演绎 */
+    .home{width: 100%;}
+    .home_top{height: 70px;}
+    .home_top svg{font-size: 40px;}
+    .home_top h2{line-height: 40px;}
+    .home_top ul{position: relative;right: 0;top: 0.5rem;height: 30px;width: 100%;}
+    .home_top ul li input{width: 8rem;}
+    .rightshow{display: none;}
+    .home_show{width: 100%;}
+    .create{width: 100%;}
+    .role{width: 100%;}
+    .buttonO{width: 39%;}
+    .set{width: 100%;}
+    .chat{width: 100%;}
+    /* 漫展信息 */
+    .screening{display: none;}
+    .booth{width: 100%;}
+    .booth_left{width: 58%;}
+    .booth_right{width: 40%;}
+    /* 物品交易 */
+    .exchange_top a{right: 5%;top: 0;}
+    .trade{width: 100%;}
+    .line{height: 150px;}
+    .choose{display: none;}
+    .showShow{height: 100px;}
+    /* text */
+    .detailed{width: 100%;}
+    .own{width: 100%;}
+    #msgBox{width: 100%;}
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    body{font-size: 16px;}
+    /* nav */
+    .nav_right input{width: 6rem;}
+    .nav img{margin-left: 0;}
+    .nav_right{margin-right: 0;}
+    /* banner */
+    .bigbig{width: 90%;}
+    .flex-direction-nav{display: none;}
+    /* exchange */
+    .right{display: none;}
+    .big{width: 90%;margin: 0 auto;}
+    .exchange_top svg{font-size: 40px;}
+    .exchange_top h2{line-height: 40px;}
+    .exchange_top a{line-height: 40px;}
+    .exchange{width: 100%;height: 300px;margin-top: 2px;}
+    .exchange_metal{width: 90%;height: 200px;}
+    .tab{height: 210px;}
+    .show{height: 200px;}
+    .hide{height: 200px;}
+    .exchange_metal ul li p{font-size: 0.3rem;}
+    .tab ol li{margin-top: 1%;}
+    .lift-nav{display: none;}
+    .bottom{height: 100px;}
+    .footer{display: none;}
+    .tab_1{height: 250px;}
+    .coser{width: 90%;}
+    .Listofpopular{display: none;}
+    .graphic{height: 40px;width: 93%;}
+    .graphic_1 svg{font-size: 40px;}
+    .graphic_1 h2{font-size: 1.5rem;line-height: 40px;}
+    .graphic a{line-height: 40px;}
+    .exchangeO{height: 230px;}
+    /* coser */
+    .selection{width: 90%;margin-top: 1rem;}
+    .sentiment{width: 90%;height: 200px;}
+    .showCoser{width: 90%;}
+    /* 扩列交友 */
+    .button{padding: .5em 0.8em .55em;}
+    .people ul{height: 120px;}
+    /* acg */
+    .hotA{width: 90%;}
+    .hotA_top svg{font-size: 40px;}
+    .hotA_top h3{font-size: 0.8rem;line-height: 40px;}
+    .hotA ul{width: 90%;}
+    .lanren{margin-top: 50px;width: 90%;}
+    .lanren ul.list li img{height: 100px;}
+    /* 绘画 */
+    .exhibit{width: 90%;}
+    .exhibit_top{height: 40px;margin-top: 1rem;}
+    .exhibit_top svg{font-size: 40px;}
+    .exhibit_top p{font-size: 1rem;line-height: 40px;width: 35%;}
+    .exhibit_top ul{margin-left: -30px;}
+    .exhibit_top ul li {line-height: 40px;margin-left: 10px;}
+    .batch{display: none;}
+    .exhibit_a{line-height: 40px;font-size: 1rem;right: 5%;}
+    .exhibitShow ul{width: 100%;}
+    .showA p{font-size: 0.8rem;}
+    .hot_left svg{font-size: 40px;}.hot_left h2{line-height: 40px;}
+    .exchange_media1{width: 98%;}
+    .exchange_href{width: 80%;}
+    /* 次元演绎 */
+    .home{width: 90%;}
+    .home_top{height: 70px;}
+    .home_top svg{font-size: 40px;}
+    .home_top h2{line-height: 40px;}
+    .home_top ul{position: relative;right: 0;top: 0;height: 30px;width: 100%;}
+    .home_top ul li input{width: 8rem;}
+    .rightshow{display: none;}
+    .home_show{width: 100%;}
+    .create{width: 90%;}
+    .role{width: 90%;}
+    .buttonO{width: 39%;}
+    .set{width: 90%;}
+    .chat{width: 90%;}
+    /* 漫展信息 */
+    .screening{width: 90%;}
+    .booth{width: 90%;}
+    .booth_left{width: 58%;}
+    .booth_right{width: 40%;}
+    .button_click{width: 100%;}
+    .exchangeS{width: 90%;}
+    /* 物品交易 */
+    .exchange_top a{right: 5%;top: 0;}
+    .trade{width: 90%;}
+    .line{height: 150px;}
+    .choose{display: none;}
+    .showShow{height: 100px;}
+    /* text */
+    .detailed{width: 100%;}
+    .own{width: 100%;}
+    #msgBox{width: 100%;}
+}

@@ -1,0 +1,211 @@
+.bigbig{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.flexslider{
+    width: 100%!important;
+    margin:0 auto!important;
+}
+.selection{
+    width: 70%;
+    height: 300px;
+    border: 1px solid #b9b9b9;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+}
+.selection h3{
+    text-align: center;
+}
+.selection a{
+    display: block;
+    width: 20%;
+    font-size: 0.9rem;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    color: coral;
+    background: rgb(41, 39, 39);
+    bottom: 0;
+    left: 40%;
+}
+.selection a:hover{
+    transition: 0.2s;
+    color: aqua;
+}
+/* coser评选 */
+.sentiment{
+    width: 70%;
+    height: 400px;
+    border: 1px solid #b9b9b9;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 1px 1px 1px #8d8d8d;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.sentiment p{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: crimson;
+}
+.sentiment_1{
+    display: flex;
+    width: 70%;
+    height: 55%;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+.top1,.top2,.top3{
+    width: 24%;
+    height: 80%;
+}
+.top1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.top2{
+    position: absolute;
+    top: 0;
+    left: 38%;
+}
+.top3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.imgshow{
+    width: 100%;
+    height: 85%;
+    background: red;
+}
+.imgshow img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.top1,.top2,.top3, a{
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+    color: blueviolet;
+}
+/* 本周人气coser */
+.showCoser{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px #8d8d8d;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+/* exchange */
+.exchange{
+    width: 60%;
+    margin-top: 10px;
+    float: left;
+}
+.exchange_new{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+}
+.exchange_new ul{
+    width: 100%;
+}
+.exchange_new ul li{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.exchange_new ul li img{
+    width: 100%;
+}
+.exchange_new ul li img:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+.exchange_new ul li p{
+    text-align: center;
+    padding-top: 5px;
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+.exchange_href{
+    display: flex;
+    width: 90%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+.exchange_href span{
+    display: block;
+    height: 30px;
+    width: 20%;
+    color: #0084ff;
+    font-size: 1rem;
+}
+.exchange_href span p{
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 30px;
+}
+.exchange_href span p:hover{
+    transition: 0.2s;
+    color: #0000ff;
+}
+/* media */
+.exchange_media1{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+}
+.exchange_media1 ul{
+    width: 100%;
+}
+.exchange_media1 ul li{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.exchange_media1 ul li img{
+    width: 100%;
+}
+.exchange_media1 ul li img:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+.exchange_media1 ul li p{
+    text-align: center;
+    padding-top: 5px;
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+/* js判断 */
+.on{
+    display: block;
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+@keyframes la{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+@keyframes lala {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}

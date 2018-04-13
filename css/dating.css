@@ -1,0 +1,145 @@
+.tab ol{
+    width: 100%;
+    height: 100%;
+}
+.tab ol li{
+    float: left;
+    width: 30%;
+    height: 45%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    position: relative;
+}
+.tab ol li:hover{
+    position: relative;
+    transition: 0.1s;
+    top: -3px;
+    left: -3px;
+    box-shadow: 3px 3px 3px #8f8f8f;
+    cursor: pointer;
+}
+.tab ol li div{
+    width: 100%;
+    height:100%;
+}
+.tab ol li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tab ol li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*button*/
+.olk{
+    width: 85%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+input{
+    height: 26px;
+}
+.button { 
+    display: inline-block; 
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */  *display: inline;
+    vertical-align: baseline;
+    margin: 30 30px; 
+    outline: none; 
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em; 
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3); 
+    -webkit-border-radius: .5em; -moz-border-radius: .5em;
+     border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2); 
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2); 
+     box-shadow: 0 1px 2px rgba(0, 0, 0, .2); }
+    .button:hover { text-decoration: none; }
+    .button:active { position: relative; top: 1px; }
+    
+    /*button结束*/
+    /*chong*/
+.chong{ 
+    width: 100%;
+    height:150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border:1px solid  #6ac97f;
+    position: relative;
+    }
+.chong a{
+    display: block;
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left:40%;
+    font-size: 1rem;
+}
+.right{
+    top: 9.5rem;
+}
+.peopleshow{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px #8d8d8d;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.people{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.people ul{
+    width: 100%;
+    height: 220px;
+    margin-top: 5px;
+}
+.people ul li{
+    width: 18%;
+    height: 90%;
+    margin-left: 1.5%;
+    float: left;
+}
+.people ul li div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #c0c0c0;
+    position: relative;
+}
+.people ul li div:hover{
+    transition: 0.1s;
+    top: -3px;
+    left: -3px;
+    box-shadow: 3px 3px 3px #8f8f8f;
+    cursor: pointer;
+}
+.people ul li div img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.people ul li div a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}

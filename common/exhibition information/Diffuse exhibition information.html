@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>漫展信息</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../../css/information.css">
+    <link rel="shortcut icon" href="../../images/icon.ico">
+    <link rel="stylesheet" href="../../css/auto.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <img src="../../images/logo.png" alt="">
+        <a href="../../index.html" class="a_index"></a>
+        <div class="nav_right">
+            <ul>
+                <li>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-sousuo"></use>
+                    </svg>
+                    <input type="text">
+                </li>
+                <li>
+                    <a href="../../landing/landing.html">登陆</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 导航栏end -->
+    <!-- 轮播广告 -->
+    <div class="bigbig">
+        <div id="banner_tabs" class="flexslider">
+            <ul class="slides">
+                <li>
+                    <a title="" target="_blank" href="#">
+                        <img width="1920" height="482" alt="" style="background: url(../../images/index/banner1.jpg) no-repeat center;" src="../../images/index/alpha.png">
+                    </a>
+                </li>
+                <li>
+                    <a title="" href="#">
+                        <img width="1920" height="482" alt="" style="background: url(../../images/index/banner2.jpg) no-repeat center;" src="../../images/index/alpha.png">
+                    </a>
+                </li>
+                <li>
+                    <a title="" href="#">
+                        <img width="1920" height="482" alt="" style="background: url(../../images/index/banner3.jpg) no-repeat center;" src="../../images/index/alpha.png">
+                    </a>
+                </li>
+            </ul>
+            <ul class="flex-direction-nav">
+                <li>
+                    <a class="flex-prev" href="javascript:;">Previous</a>
+                </li>
+                <li>
+                    <a class="flex-next" href="javascript:;">Next</a>
+                </li>
+            </ul>
+            <ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+                <li>
+                    <a>1</a>
+                </li>
+                <li>
+                    <a>2</a>
+                </li>
+                <li>
+                    <a>2</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <!-- 广告结束 -->
+    <!-- 筛选 -->
+    <div class="screening">
+        <table>
+            <tr>
+                <td>
+                    <button class="black">未开始</button>
+                </td>
+                <td>
+                    <button class="black">已结束</button>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <button class="black button_click">搜索</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>日期:</p>
+                </td>
+                <td>
+                    <button class="black">2017</button>
+                </td>
+                <td>
+                    <button class="black">2018</button>
+                </td>
+                <td>
+                    <button class="black">2019</button>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <button class="black">1月</button>
+                </td>
+                <td>
+                    <button class="black">2月</button>
+                </td>
+                <td>
+                    <button class="black">3月</button>
+                </td>
+                <td>
+                    <button class="black">4月</button>
+                </td>
+                <td>
+                    <button class="black">5月</button>
+                </td>
+                <td>
+                    <button class="black">6月</button>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <button class="black">7月</button>
+                </td>
+                <td>
+                    <button class="black">8月</button>
+                </td>
+                <td>
+                    <button class="black">9月</button>
+                </td>
+                <td>
+                    <button class="black">10月</button>
+                </td>
+                <td>
+                    <button class="black">11月</button>
+                </td>
+                <td>
+                    <button class="black">12月</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>地区:</p>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">北京</option>
+                        <option value="">北京</option>
+                        <option value="">北京</option>
+                    </select>
+                </td>
+                <td>
+                    <p>类型</p>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">全部</option>
+                        <option value="">面交</option>
+                        <option value="">邮寄</option>
+                    </select>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    <div class="booth">
+        <div class="booth_show">
+            <div class="booth_left">
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523188166462&di=5f96ac6b67a9a8f4137d678bee73acd8&imgtype=0&src=http%3A%2F%2Fpic8.nipic.com%2F20100724%2F5144728_005104787851_2.jpg" alt="">
+            </div>
+            <div class="booth_right">
+                <table>
+                    <tr>
+                        <td>
+                            <p>展会名称:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会时间:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会类型:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会地点:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="black">摊位申请</button>
+                        </td>
+                        <td>
+                            <button class="black">购买门票</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="booth_show">
+            <div class="booth_left">
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523188166462&di=5f96ac6b67a9a8f4137d678bee73acd8&imgtype=0&src=http%3A%2F%2Fpic8.nipic.com%2F20100724%2F5144728_005104787851_2.jpg" alt="">
+            </div>
+            <div class="booth_right">
+                <table>
+                    <tr>
+                        <td>
+                            <p>展会名称:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会时间:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会类型:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会地点:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="black">摊位申请</button>
+                        </td>
+                        <td>
+                            <button class="black">购买门票</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="booth_show">
+            <div class="booth_left">
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523188166462&di=5f96ac6b67a9a8f4137d678bee73acd8&imgtype=0&src=http%3A%2F%2Fpic8.nipic.com%2F20100724%2F5144728_005104787851_2.jpg" alt="">
+            </div>
+            <div class="booth_right">
+                <table>
+                    <tr>
+                        <td>
+                            <p>展会名称:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会时间:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会类型:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会地点:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="black">摊位申请</button>
+                        </td>
+                        <td>
+                            <button class="black">购买门票</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="booth_show">
+            <div class="booth_left">
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523188166462&di=5f96ac6b67a9a8f4137d678bee73acd8&imgtype=0&src=http%3A%2F%2Fpic8.nipic.com%2F20100724%2F5144728_005104787851_2.jpg" alt="">
+            </div>
+            <div class="booth_right">
+                <table>
+                    <tr>
+                        <td>
+                            <p>展会名称:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会时间:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会类型:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会地点:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="black">摊位申请</button>
+                        </td>
+                        <td>
+                            <button class="black">购买门票</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="booth_show">
+            <div class="booth_left">
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523188166462&di=5f96ac6b67a9a8f4137d678bee73acd8&imgtype=0&src=http%3A%2F%2Fpic8.nipic.com%2F20100724%2F5144728_005104787851_2.jpg" alt="">
+            </div>
+            <div class="booth_right">
+                <table>
+                    <tr>
+                        <td>
+                            <p>展会名称:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会时间:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会类型:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会地点:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="black">摊位申请</button>
+                        </td>
+                        <td>
+                            <button class="black">购买门票</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="booth_show">
+            <div class="booth_left">
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523188166462&di=5f96ac6b67a9a8f4137d678bee73acd8&imgtype=0&src=http%3A%2F%2Fpic8.nipic.com%2F20100724%2F5144728_005104787851_2.jpg" alt="">
+            </div>
+            <div class="booth_right">
+                <table>
+                    <tr>
+                        <td>
+                            <p>展会名称:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会时间:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会类型:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>展会地点:</p>
+                        </td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="black">摊位申请</button>
+                        </td>
+                        <td>
+                            <button class="black">购买门票</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- 底部区域 -->
+    <div class="buttom">
+
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <h2>友情链接</h2>
+        <ul>
+            <li>
+                <a href="#">1</a>
+            </li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">4</a>
+            </li>
+            <li>
+                <a href="#">5</a>
+            </li>
+            <li>
+                <a href="#">6</a>
+            </li>
+            <li>
+                <a href="#">7</a>
+            </li>
+            <li>
+                <a href="#">8</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">1</a>
+            </li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">4</a>
+            </li>
+            <li>
+                <a href="#">5</a>
+            </li>
+            <li>
+                <a href="#">6</a>
+            </li>
+            <li>
+                <a href="#">7</a>
+            </li>
+            <li>
+                <a href="#">8</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">1</a>
+            </li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">4</a>
+            </li>
+            <li>
+                <a href="#">5</a>
+            </li>
+            <li>
+                <a href="#">6</a>
+            </li>
+            <li>
+                <a href="#">7</a>
+            </li>
+            <li>
+                <a href="#">8</a>
+            </li>
+        </ul>
+    </div>
+    <!-- footer end -->
+</body>
+<script src="../../font/iconfont.js"></script>
+<script src="../../js/jquery-3.3.1.min.js"></script>
+<script src="../../js/slider.js"></script>
+<!-- 调用jquery插件 -->
+<script type="text/javascript">
+    $(function () {
+        var bannerSlider = new Slider($('#banner_tabs'), {
+            time: 5000,
+            delay: 400,
+            event: 'hover',
+            auto: true,
+            mode: 'fade',
+            controller: $('#bannerCtrl'),
+            activeControllerCls: 'active'
+        });
+        $('#banner_tabs .flex-prev').click(function () {
+            bannerSlider.prev()
+        });
+        $('#banner_tabs .flex-next').click(function () {
+            bannerSlider.next()
+        });
+    })
+
+</script>
+
+</html>

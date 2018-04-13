@@ -1,0 +1,358 @@
+body{
+    background-color: #eeeeee;
+}
+.homePage{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.personal{
+    width: 25%;
+    height: 450px;
+    background-color: white;
+    margin-top: 100px;
+    border: 1px solid #dadada;
+    box-shadow: 2px 2px 2px #8b8b8b;
+}
+.personal-id{
+    width: 250px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.ibox-content{
+    display: block;
+    width: 25%;
+    height: 80%;
+    margin-top: 5%;
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+}
+.row{
+    width: 100%;
+    height: 100%;
+}
+.col-md-6{
+    width: 100%!important;
+    height: 100%!important;
+    padding: 0!important;
+    margin-left: 15px;
+}
+.personal-id-own{
+    width: 70%;
+    height: 80%;
+    margin-top: 5%;
+    float: right;
+    position: relative;
+}
+.personal-id-own i{
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+.personal-id-own h4{
+    color: #333333;
+    cursor: pointer;
+}
+.change-input{
+    width: 65%;
+    font-size: 16px;
+}
+.change-button{
+    width: 20%;
+    height: 100%;
+}
+.personal-id-own h4:hover{
+    color: tomato;
+}
+.personal-id-own p{
+    font-size: 13px;
+    color: #333333;
+    margin-top: 5px;
+}
+.personal-id-own p span{
+    color: tomato;
+}
+.personal-id-own button{
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    margin-top: 5px;
+    text-align: center;
+}
+.person-tab{
+    width: 80%;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.person-tab ul{
+    width: 100%;
+    height: 100%;
+}
+.person-tab ul li{
+    width: 100%;
+    height: 22%;
+    margin-top: 6px;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px #8d8d8d;
+    border: 1px solid #dadada;
+}
+.person-tab ul li:hover{
+    transition: 0.1s;
+    position: relative;
+    top: -2px;
+    left: -2px;
+    box-shadow: 3px 3px 3px #8d8d8d;
+}
+.person-tab ul li span{
+    display: block;
+    width: 20px;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+    color: #818181;
+}
+.tabPage{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    border: 1px solid #dadada;
+    box-shadow: 2px 2px 2px #b8b8b8;
+}
+/* 我的发布 */
+.release{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.release img{
+    max-width: 40%;
+    min-width: 30%;
+    border: 2px solid #e0e0e0;
+    display: inline;
+}
+.release-ul{
+    width: 30%;
+    float: right;
+    margin-right: 28%;
+}
+.release-ul ul li{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+.release-ul ul li p{
+    display: inline;
+    font-size: 16px;
+    color: #3bb3e0;
+    line-height: 30px;
+}
+.release-ul ul li span{
+    line-height: 30px;
+    margin-left: 10px;
+}
+/* 我的关注 */
+.concern{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.concernPage{
+    width: 100%;
+    height: 80px;
+}
+.concernPage img{
+    float: left;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.information{
+    width:100%;
+    height: 100%;
+    border-bottom: 1px solid #999999;
+}
+.information h6{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 70px;
+    color: #3bb3e0;
+}
+.information p{
+    font-size: 15px;
+    padding-left: 70px;
+    color: #3bb3e0;
+}
+.information p span{
+    color: red;
+}
+.show{display: block;}
+.hide{display: none;}
+/* 上传 */
+.upload{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.upload a{
+	background-color:#3bb3e0;
+	padding:10px;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	border: solid 1px #186f8f;
+	background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(44,160,202)),
+	color-stop(1, rgb(62,184,229))
+	);
+	-webkit-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+	-moz-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+	box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+.upload a::before {
+	background-color:#ccd0d5;
+	content:"";
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding:8px;
+	left:-8px;
+	top:-8px;
+	z-index:-1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+	-moz-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+	-o-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+	box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+}
+.upload a:active {
+	padding-bottom:9px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:11px;
+	top:1px;
+	background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(62,184,229)),
+	color-stop(1, rgb(44,160,202))
+	);
+}
+/* 弹出层 */
+.reveal-modal-bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+    top: 0;
+    left: 0;
+    background: rgba(00, 00, 00, 0.8)
+}
+.reveal-modal {
+    visibility: hidden;
+    top: 150px;
+    left: 50%;
+    margin-left: -300px;
+    width: 520px;
+    position: absolute;
+    z-index: 101;
+    padding: 30px 40px 34px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    -box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    background-color: #FFF;
+}
+.reveal-modal.small {
+    width: 200px;
+    margin-left: -140px;
+}
+.reveal-modal.medium {
+    width: 400px;
+    margin-left: -240px;
+}
+.reveal-modal.large {
+    width: 600px;
+    margin-left: -340px;
+}
+.reveal-modal.xlarge {
+    width: 800px;
+    margin-left: -440px;
+}
+.reveal-modal .close-reveal-modal {
+    font-size: 22px;
+    line-height: 0.5;
+    position: absolute;
+    top: 8px;
+    right: 11px;
+    color: #333;
+    text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);
+    font-weight: bold;
+    cursor: pointer;
+}
+.mask{background:#666666; opacity:0.4;}
+.dialog_body{width:100%; height:100%; border:1px solid #999999; background-color:#ffffff;}
+.dialog_top{background-color:#555555; color:#ffffff; height:25px; padding:5px; font-size:12px;}
+.dialog_main{text-align:center; height:55px; padding-top:40px; color:#333333;}
+.dialog_bottom{padding:0 15px; color:#333333;position: absolute;bottom: 0;right: 0;}
+.dialog_bottom span{float:right;}
+.text{width: 100%;height: 300px;}
+.Personal-information{
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+}
+.text {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+}
+.text-area{
+    width: 100%;
+    height: 100%;
+    resize: none;
+}

@@ -1,0 +1,384 @@
+.bigbig{
+    width: 70%;
+    height: 250px;
+    margin: 0 auto;
+}
+/* 二级导航 */
+.col{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+.col ul{
+    width: 100%;
+    height: 60px;
+}
+.col ul li{
+    height: 60px;
+    width: 9%;
+    margin-left: 1rem;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 25px;
+}
+.col ul li a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.col ul li:hover span{
+    color: #b40c1a;
+}
+.col ul li:hover ol{
+    display: block;
+}
+.col ul li span{
+    display: block;
+    color: #303030;
+    font-size: 15px;
+}
+.col ul li svg{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.col ul li ol{
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    background-color: white;
+    z-index: 1000;
+}
+.col ul li ol li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+    font-size: 13px;
+    position: relative;
+}
+.col ul li ol li:hover{
+    transition: 0.2s;
+    color: white;
+    background-color: #5e5e5e;
+}
+.col ul li ol li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* 大框架 */
+.big{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+/* cosplay综合交流 */
+.exchange{
+    width: 70.5%;
+    height: 600px;
+    border: 1px solid #ebebeb;
+    margin-top: 10px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgb(189, 188, 188);
+    background-color: white;
+}
+.exchange_top{
+    display: flex;
+}
+.exchange_top a{
+    position: absolute;
+    right: 5%;
+    line-height: 80px;
+    color: #2d3129;
+}
+.exchange_top svg{
+    font-size: 80px;
+}
+.exchange_top h2{
+    font-size: 20px;
+    line-height: 80px;
+    color: #27df16;
+}
+.exchange_metal{
+    width: 90%;
+    height: 500px;
+    margin-left: 3%;
+}
+.exchange_metal ul li{
+    float: left;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+}
+.exchange_metal ul li p{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    line-height: 30px;
+}
+.pshow{
+    transition: 100ms;
+    position: relative;
+    height: 110%!important;
+    top: -10%;
+    background-color: #a503e6;
+    color: white;
+    line-height: 34px!important;
+    font-weight: bold;
+}
+.tab{
+    width: 100%;
+    height: 480px;
+    border: 1px solid #4198c0;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.show{width: 100%;height: 480px;z-index: 1;}
+.hide{width: 100%;height: 480px;background-repeat: no-repeat;background-size: 100% 100%;display: none;}
+.show span ul{
+    width: 100%;
+    height: 100%;
+}
+.show span ul li{
+    float: left;
+    width: 30%;
+    height: 45%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    position: relative;
+}
+.show span ul li:hover{
+    position: relative;
+    transition: 0.1s;
+    top: -3px;
+    left: -3px;
+    box-shadow: 3px 3px 3px #8f8f8f;
+    cursor: pointer;
+}
+.show span ul li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.show span ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tab ol{
+    width: 100%;
+    height: 100%;
+}
+.tab ol li{
+    float: left;
+    width: 30%;
+    height: 45%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    position: relative;
+}
+.tab ol li:hover{
+    position: relative;
+    transition: 0.1s;
+    top: -3px;
+    left: -3px;
+    box-shadow: 3px 3px 3px #8f8f8f;
+    cursor: pointer;
+}
+.tab ol li div{
+    width: 100%;
+    height:100%;
+}
+.tab ol li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tab ol li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* right */
+.right{
+    width: 29%;
+    position: absolute;
+    right: 0%;
+    top: -10px;
+}
+.right_1 p{
+    color: #6ac97f;
+    height: 5%;
+}
+.right_1{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: 0;
+    border: 1px solid #ebebeb;
+    box-shadow: 1px 1px 1px #c0c0c0;
+    background-color: white;
+}
+.branch{
+    width: 100%;
+    height: 95%;
+}
+.branch ul{
+    width: 100%;
+    height: 100%;
+}
+.branch ul li{
+    width: 100%;
+    margin-top: 5px;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+.branch ul li:hover p{
+    background-color: #c0c0c0;
+    color: white;
+}
+.branch ul li span{
+    display: block;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    margin-top: 12px;
+    float: left;
+    background-color: rebeccapurple;
+    font-size: 15px;
+    border-radius: 50%;
+    line-height: 18px;
+    color: white;
+}
+.branch ul li p{
+    line-height: 40px;
+    cursor: pointer;
+}
+.branch ul li div{
+    width: 100%;
+    height: 100px;
+    display: none;
+}
+.branch ul li div img{
+    display: block;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.branch ul li div ol{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.branch ul li div ol li{
+    width: 100%;
+    height: 33%;
+    margin-top: 0;
+}
+.branch ul li div ol li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 33px;
+    color: #2d3129;
+}
+.branch ul li div ol li a:hover{
+    color: #a503e6;
+}
+.branch-i{
+    font-style: normal;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #c0c0c0;
+}
+.branch ul li:hover .branch-i{
+    color: white;
+}
+/* 侧边导航 */
+.lift-nav{
+    position: fixed;
+    height: 100%;
+    bottom: 0;
+    left: -72px;
+    z-index: 1000;
+    background: #818181;
+}
+.lift-nav li{
+    width: 3rem;
+    height: 32px;
+    text-align: center;
+    font-size: 0.5rem;
+    line-height: 40px;
+    color: #fff;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.lift-nav li.current{
+    background: tomato;
+    font-weight: bold;
+    color: white;
+}
+.lift-nav li:hover{
+    transition: 0.1s;
+    background-color: crimson;
+}
+@keyframes inx{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes outx{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+.but{
+    position: absolute;
+    left: 72px;
+    top: 40%;
+    width:40px;
+    height:80px; 
+    background-color:#dbdbdb;
+    border-radius:0 40px 40px 0;
+    overflow: hidden;
+    border: none;
+    outline:none;
+    text-align: left;
+}
+.but-tab{
+    border-radius:40px 0 0 40px;
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+.but-tab-over{
+    border-radius:0 40px 40px 0;
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+.but svg{
+    font-size: 40px;
+}
